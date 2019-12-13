@@ -9,9 +9,5 @@ spec:
   containers:
   - name: worker-app
     image: dockersamples/examplevotingapp_worker
-    resources:
-      limits:
-        memory: "512Mi"
-        cpu: "500m"
     ports:
       - containerPort: 80
